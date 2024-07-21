@@ -1,0 +1,113 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    white-space: normal;
+    border-radius: 5px;
+    position: relative;
+    grid-area: center;
+    box-shadow: none;
+    vertical-align: baseline;
+    box-sizing: content-box;
+}
+
+.register-container {
+    background-color: gray;
+    padding: 0 0px 0px;
+    border-radius: 3px;
+    box-shadow: none;
+    width: 320px;
+    box-sizing: content-box;
+    flex-shrink: 0;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 25px;
+    width: 320px;
+    box-sizing: content-box;
+}
+
+.login-input, .password-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #c2c8d0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #2d333a;
+    font-family: inherit;
+    font-size: 16px;
+    height: 52px;
+    line-height: 1.1;
+    outline: none;
+    padding-block: 1px;
+    padding-inline: 2px;
+    padding: 0 16px;
+    transition: box-shadow .2s ease-in-out,border-color .2s ease-in-out;
+    width: 100%;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+	margin-bottom: 5%;
+}
+
+.title-wrapper {
+    padding: 40px 40px 24px;
+    box-sizing: content-box;
+}
+
+.title {
+    font-size: 32px;
+    font: "Söhne";
+    margin: 24px 0 0;
+    color: white;
+    width: 320px;
+    text-align: center;
+}
+
+.register-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 52px;
+    width: 320px;
+    background-color: #10a37f;
+    color: #fff;
+    margin: -20px 0 0;
+    border-radius: 6px;
+    padding: 4px 16px;
+    font: inherit;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+	background-color: #27ac8b 
+}
+
+.register-btn:active {
+	background-color: #27ac8b;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
