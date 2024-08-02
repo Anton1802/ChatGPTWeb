@@ -1,0 +1,128 @@
+body, html{
+	height: calc(100% - 10px);
+	background-color: gray;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 150px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #818181;
+    display: block;
+}
+
+.sidenav h1 {
+	padding: 6px 8px 6px 16px;
+	font-size: 1.6rem;
+	color: #74AA9C
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.btn-add {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 5px;
+	margin: 4px 8px;
+	cursor: pointer;
+}
+
+.box {
+    margin-left: 150px;
+    height: 80%;
+    background-color: gray;
+    box-sizing: border-box;
+    overflow-y: scroll;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.bot {
+    background-color: #74AA9C;
+    text-align: left;
+}
+
+.message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.box::-webkit-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+}
+
+.box::-webkit-scrollbar-track {
+  background: gray;        
+}
+
+.box::-webkit-scrollbar-thumb {
+  background-color: #74AA9C
+  border-radius: 20px;       
+  border: 3px solid orange;  
+}
+
+.input-container {
+	margin-top: 20px;
+	margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+	padding: 20px 20px 20px 20px;
+	
+}
+
+#input {
+    width: 90%;
+    height: 42px;
+    max-height: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    display: inline-block;
+    overflow-y: auto;
+    resize: none;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+button {
+	margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+#send:hover {
+	color: green;
+}

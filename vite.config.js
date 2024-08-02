@@ -7,7 +7,8 @@ export default defineConfig({
             input: [
                 'resources/js/welcome.js',
 				'resources/js/register.js',
-				'resources/js/login.js'
+				'resources/js/login.js',
+				'resources/js/chat.js'
             ],
             refresh: true,
         }),
